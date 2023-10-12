@@ -202,7 +202,7 @@ WHERE dea.location ="India";
 SELECT * 
 FROM PercentPopulationVaccinated;
 
--- CREATING VIEWS TO STORE DATA FOR LATER VISULATIONS 
+-- CREATING VIEWS TO STORE DATA FOR LATER VISUALISATIONS 
 CREATE VIEW PercentPopulationVaccinated
 AS 
 SELECT dea.continent,dea.location,dea.population,dea.date,vac.new_vaccinations,
